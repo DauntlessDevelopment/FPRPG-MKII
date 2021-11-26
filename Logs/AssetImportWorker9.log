@@ -1,0 +1,235 @@
+Using pre-set license
+Built from '2021.2/release' branch; Version is '2021.2.0f1 (4bf1ec4b23c9) revision 4977132'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19043.1348; Version 2009; 64bit' Language: 'en' Physical Memory: 32704 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\2021.2.0f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker9
+-projectPath
+E:/Programming/Tutoring/Orfeas/FPRPG MKII
+-logFile
+Logs/AssetImportWorker9.log
+-srvPort
+54167
+Successfully changed project path to: E:/Programming/Tutoring/Orfeas/FPRPG MKII
+E:/Programming/Tutoring/Orfeas/FPRPG MKII
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 71.81 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.2.0f1 (4bf1ec4b23c9)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/2021.2.0f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/Programming/Tutoring/Orfeas/FPRPG MKII/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1060 6GB (ID=0x1c03)
+    Vendor:   NVIDIA
+    VRAM:     6052 MB
+    Driver:   30.0.14.9676
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/2021.2.0f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/2021.2.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/2021.2.0f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56532
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/2021.2.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.009634 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 77.47 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.906 seconds
+Domain Reload Profiling:
+	ReloadAssembly (906ms)
+		BeginReloadAssembly (71ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (423ms)
+			LoadAssemblies (68ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (92ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (24ms)
+			SetupLoadedEditorAssemblies (259ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (78ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (129ms)
+				ProcessInitializeOnLoadMethodAttributes (44ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.004413 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Programming\Tutoring\Orfeas\FPRPG MKII\Library\PackageCache\com.unity.visualscripting@1.7.2\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Programming\Tutoring\Orfeas\FPRPG MKII\Library\PackageCache\com.unity.visualscripting@1.7.2\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.86 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.993 seconds
+Domain Reload Profiling:
+	ReloadAssembly (994ms)
+		BeginReloadAssembly (169ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (19ms)
+		EndReloadAssembly (730ms)
+			LoadAssemblies (76ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (203ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (321ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (69ms)
+				ProcessInitializeOnLoadAttributes (208ms)
+				ProcessInitializeOnLoadMethodAttributes (21ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.63 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3082 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (55.8 KB). Loaded Objects now: 3543.
+Memory consumption went from 112.2 MB to 112.2 MB.
+Total: 3.296400 ms (FindLiveObjects: 0.310400 ms CreateObjectMapping: 0.081000 ms MarkObjects: 2.814200 ms  DeleteObjects: 0.089500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1141764.012860 seconds.
+  path: Assets/Effects/smokeparticleassets/PNG/White puff/whitePuff01.png
+  artifactKey: Guid(c752376dc9fec06449c4245451e71462) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Effects/smokeparticleassets/PNG/White puff/whitePuff01.png using Guid(c752376dc9fec06449c4245451e71462) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2749d39a1e8be2429c1343c8684d367') in 0.072417 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Effects/smokeparticleassets/PNG/White puff/whitePuff16.png
+  artifactKey: Guid(dbf8f2b17e3168e43acbe5b5e63581bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Effects/smokeparticleassets/PNG/White puff/whitePuff16.png using Guid(dbf8f2b17e3168e43acbe5b5e63581bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce40feb6fb7318170ac943d531220190') in 0.015029 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Effects/smokeparticleassets/PNG/White puff/whitePuff07.png
+  artifactKey: Guid(b10839431784ccc43a5053279b6e4410) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Effects/smokeparticleassets/PNG/White puff/whitePuff07.png using Guid(b10839431784ccc43a5053279b6e4410) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b7263b6bfa468e0113019e689e9bc1f') in 0.016334 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Effects/smokeparticleassets/PNG/White puff/whitePuff09.png
+  artifactKey: Guid(b19ebb7d85d4b2b488bf0927ea836044) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Effects/smokeparticleassets/PNG/White puff/whitePuff09.png using Guid(b19ebb7d85d4b2b488bf0927ea836044) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0545ac50186d4dab573455cfef639b26') in 0.016494 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Effects/smokeparticleassets/PNG/White puff/whitePuff24.png
+  artifactKey: Guid(9e20144d9c498944981d9715c8c4675d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Effects/smokeparticleassets/PNG/White puff/whitePuff24.png using Guid(9e20144d9c498944981d9715c8c4675d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5830e9ccbec2b4120eac91ce4110b757') in 0.011827 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Effects/smokeparticleassets/PNG/White puff/whitePuff04.png
+  artifactKey: Guid(8f0df475898315642ac2f7fe9681ea35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Effects/smokeparticleassets/PNG/White puff/whitePuff04.png using Guid(8f0df475898315642ac2f7fe9681ea35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b5b7d3f18954b0194e3c01dbbc678b1') in 0.013289 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Effects/smokeparticleassets/PNG/White puff/whitePuff14.png
+  artifactKey: Guid(979344e9296758a4393456dcd1baa01a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Effects/smokeparticleassets/PNG/White puff/whitePuff14.png using Guid(979344e9296758a4393456dcd1baa01a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fe8526e0e98cf3f547c66fbc31c4b92') in 0.013463 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Effects/smokeparticleassets/PNG/White puff/whitePuff13.png
+  artifactKey: Guid(6d904174226ae894baa2e36449989234) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Effects/smokeparticleassets/PNG/White puff/whitePuff13.png using Guid(6d904174226ae894baa2e36449989234) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52f4a251e774c1077685ef108439656e') in 0.013107 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Effects/smokeparticleassets/PNG/White puff/whitePuff21.png
+  artifactKey: Guid(63ad913d10c4d0642894bbcc19444ca1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Effects/smokeparticleassets/PNG/White puff/whitePuff21.png using Guid(63ad913d10c4d0642894bbcc19444ca1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6115b0aa31a7bd93dbc6e8a4dd1697b') in 0.012651 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Effects/smokeparticleassets/PNG/White puff/whitePuff12.png
+  artifactKey: Guid(e5f13f839a7033a42adcaa4641e2dc8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Effects/smokeparticleassets/PNG/White puff/whitePuff12.png using Guid(e5f13f839a7033a42adcaa4641e2dc8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '089527c2c5e004490adc85cb892bec39') in 0.012492 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Effects/smokeparticleassets/PNG/White puff/whitePuff22.png
+  artifactKey: Guid(293e376b46559e645baf84116a6aaea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Effects/smokeparticleassets/PNG/White puff/whitePuff22.png using Guid(293e376b46559e645baf84116a6aaea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90af0b01e93f4fa041d12ce7f72a4081') in 0.013502 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Effects/smokeparticleassets/PNG/White puff/whitePuff19.png
+  artifactKey: Guid(93a2e0952ec613641ae1ed84c31b9b7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Effects/smokeparticleassets/PNG/White puff/whitePuff19.png using Guid(93a2e0952ec613641ae1ed84c31b9b7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c619fa8085fe59b226048a48449f2de') in 0.011892 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

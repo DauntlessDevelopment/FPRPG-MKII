@@ -1,12 +1,23 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Player : Agent
 {
 
     [SerializeField] private GameObject head;
     [SerializeField] private GameObject feet;
+    [SerializeField] private GameObject weapon;
+    [SerializeField] private Transform ads_xform;
+    [SerializeField] private Transform hip_xform;
+
+    [SerializeField] private Image crosshair;
+    private float normal_fov = 90;
+    private float ads_fov = 45;
+
+
+    private bool ADS = false;
 
     private Animator animator;
     // Start is called before the first frame update
@@ -59,6 +70,7 @@ public class Player : Agent
         if (Input.GetAxisRaw("Mouse Y") != 0)
         {
             head.transform.Rotate(Vector3.right, -Input.GetAxisRaw("Mouse Y") * turn_speed * Time.deltaTime);
+            Camera.main.transform.Rotate(Vector3.right, -Input.GetAxisRaw("Mouse Y") * turn_speed * Time.deltaTime);
         }
 
         if(Input.GetButtonDown("Jump"))
@@ -66,6 +78,37 @@ public class Player : Agent
             
             GetComponent<Rigidbody>().velocity += new Vector3(0, 10, 0);
             
+        }
+
+        if(Input.GetButtonDown("Fire1"))
+        {
+            GetComponentInChildren<Weapon>().Shoot();
+            Debug.Log("Shoot in player");
+        }
+
+        if(Input.GetButtonDown("Fire2"))
+        {
+            ToggleADS();
+        }
+    }
+
+    private void ToggleADS()
+    {
+        ADS = !ADS;
+
+        if(ADS)
+        {
+            weapon.transform.position = ads_xform.position;
+            Camera.main.fieldOfView = ads_fov;
+            crosshair.enabled = false;
+        }
+        else
+        {
+            weapon.transform.position = hip_xform.position;
+            Camera.main.fieldOfView = normal_fov;
+            crosshair.enabled = true;
+
+
         }
     }
 }

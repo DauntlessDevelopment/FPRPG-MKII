@@ -12,6 +12,8 @@ public class Player : Agent
     [SerializeField] private Transform ads_xform;
     [SerializeField] private Transform hip_xform;
 
+    [SerializeField] private List<GameObject> weapons = new List<GameObject>();
+
     [SerializeField] private Image crosshair;
     private float normal_fov = 90;
     private float ads_fov = 45;
@@ -90,21 +92,36 @@ public class Player : Agent
         {
             ToggleADS();
         }
+
+
+        if(Input.GetKeyDown(KeyCode.Alpha1))
+        {
+            weapon.gameObject.SetActive(false);
+            weapon = weapons[0].gameObject;
+            weapon.gameObject.SetActive(true);
+        }
+        if (Input.GetKeyDown(KeyCode.Alpha2))
+        {
+            weapon.gameObject.SetActive(false);
+            weapon = weapons[1].gameObject;
+            weapon.gameObject.SetActive(true);
+        }
+
     }
 
     private void ToggleADS()
     {
         ADS = !ADS;
-
+        GameObject w = weapon.GetComponentInChildren<Weapon>().gameObject;
         if(ADS)
         {
-            weapon.transform.position = ads_xform.position;
+            w.transform.position = ads_xform.position;
             Camera.main.fieldOfView = ads_fov;
             crosshair.enabled = false;
         }
         else
         {
-            weapon.transform.position = hip_xform.position;
+            w.transform.position = hip_xform.position;
             Camera.main.fieldOfView = normal_fov;
             crosshair.enabled = true;
 
